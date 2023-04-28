@@ -3,7 +3,7 @@ const cors = require("cors")
 const app = express()
 require("dotenv").config()
 app.use(cors())
-let port = 80
+let port = 443
 app.get("/",(req,res)=>{
     res.send("Hello There")
 })
