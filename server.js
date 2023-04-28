@@ -6,6 +6,7 @@ app.use(cors())
 let port = process.env.PORT || 3000
 app.get("/",(req,res)=>{
     res.send("Hello There")
+    console.log("request rececived")
 })
 
 app.listen(port,(err)=>{
